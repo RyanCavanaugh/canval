@@ -1,0 +1,28 @@
+{
+  sizes: {
+    "small-landscape": { width: 15, height: 12 },
+    "small-portrait": { width: 12, height: 15 },
+    "large-landscape": { width: 21, height: 15 },
+    "large-portrait": { width: 15, height: 21 }
+  },
+  objects: [
+    { size: "small-landscape", row: 1, col: 1 },
+    { size: "large-landscape", row: 0, col: 7 },
+    { size: "small-landscape", row: 2, col: 15 },
+    { size: "large-landscape", row: 1, col: 21 },
+    { size: "small-portrait", row: 2, col: 29 },
+    { size: "large-landscape", row: 0, col: 34 },
+
+    { size: "small-portrait", row: 6, col: 3 },
+    { size: "large-portrait", row: 6, col: 8 },
+    { size: "large-landscape", row: 7, col: 14 },
+    { size: "small-landscape", row: 7, col: 22 },
+    { size: "large-portrait", row: 8, col: 28 },
+    { size: "small-landscape", row: 6, col: 34 },
+
+    { size: "large-landscape", row: 12, col: 0 },
+    { size: "small-landscape", row: 13, col: 14 },
+    { size: "large-landscape", row: 13, col: 20 },
+    { size: "small-landscape", row: 11, col: 35 }
+  ]
+}
